@@ -1,5 +1,9 @@
 :root {
-  --primary: #645cff;
+  --primary: #bb5d00;
+  --secondary: #da6d00;
+  --white: #fff;
+  --hover-white: #e5e5e5;
+  --hover-shadow: #80808072;
 }
 
 body {
@@ -9,8 +13,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282c34;
-  color: white;
+  background-color: #f2f4f8;
 }
 
 code {

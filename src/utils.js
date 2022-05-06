@@ -1,3 +1,7 @@
 export const colors = {
-    primary: 'blue',
+    primary: 'white',
+}
+
+export const setupBorder = ({ width, type = 'solid', color }) => {
+    return `${width} ${type} ${color}`
 }

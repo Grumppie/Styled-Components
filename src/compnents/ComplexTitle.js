@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import { colors } from '../utils'
+import { colors, setupBorder } from '../utils'
 
 const Wrapper = styled.div`
     h1{ 
         text-transform: uppercase;
         text-align: center;
         color: ${colors.primary};
+        border: ${setupBorder({ width: '5px', type: 'dotted', color: 'red' })};
     }
     .underline{
         width: 30%;

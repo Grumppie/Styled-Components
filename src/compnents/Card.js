@@ -1,7 +1,9 @@
-import React from 'react'
+import { useState, useEffect } from 'react'
 import styled from 'styled-components';
 
-const Card = () => {
+const Card = ({ onClick }) => {
+
+    
     return (
         <StyledCard>
             <img src="https://dl.airtable.com/.attachmentThumbnails/e8bc3791196535af65f40e36993b9e1f/438bd160?ts=1651832554&userId=usrQMwWEPx18KgLcP&cs=d5ee4a9948c5c3b0" alt="product" />
@@ -20,6 +22,7 @@ const StyledCard = styled.article`
     background-color: var(--white); 
     border-radius: 0.5rem;
     cursor: pointer;
+    position: relative;
     transition: all 0.3s ease-in-out;
     img{
         width:100%;
@@ -53,10 +56,11 @@ const StyledCard = styled.article`
     &:hover{
         box-shadow: 0px 0px 20px var(--hover-shadow);
     }
+
+    
     @media (min-width: 768px){
         max-width: 600px;
     }
-
 `
 
 export default Card

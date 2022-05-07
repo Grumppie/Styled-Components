@@ -7,6 +7,7 @@ const GlobalStyles = createGlobalStyle`
   --white: #fff;
   --hover-white: #e5e5e5;
   --hover-shadow: #80808072;
+  --loader-primary: #0096FF;
 }
 
 body {

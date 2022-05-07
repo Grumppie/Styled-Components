@@ -40,7 +40,7 @@ function App() {
       <HipsterButton>
         hey there
       </HipsterButton>
-      <HipsterButton>
+      <HipsterButton large>
         hey there
       </HipsterButton>
       <div>

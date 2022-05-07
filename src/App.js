@@ -3,9 +3,10 @@
 // import ComplexTitle from "./compnents/ComplexTitle";
 // import Card from "./compnents/Card";
 // import { useState } from 'react';
-import styled, { ThemeProvider } from 'styled-components';
+// import styled, { ThemeProvider } from 'styled-components';
+// import Loading from './compnents/Loading'
 import GlobalStyles from './Global'
-import Loading from './compnents/Loading'
+import { HipsterButton } from './compnents/Buttons'
 
 
 // const BaseTheme = {
@@ -33,8 +34,20 @@ function App() {
   return (
     <div className="App">
       <GlobalStyles />
-      <Loading />
+      <HipsterButton as="a" href="https://github.com/">
+        hey there
+      </HipsterButton>
+      <HipsterButton>
+        hey there
+      </HipsterButton>
+      <HipsterButton>
+        hey there
+      </HipsterButton>
+      <div>
+        <h2>noting really unique</h2>
+      </div>
       {/* <Card /> */}
+      {/* <Loading /> */}
     </div>
   );
 }
